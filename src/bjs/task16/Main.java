@@ -6,6 +6,8 @@ import java.util.InputMismatchException;
 import bjs.task16.hardware.*;
 import bjs.task16.applications.*;
 
+import java.util.*
+
 public class Main {
 
     public static void main(String[] args) {
@@ -106,6 +108,10 @@ public class Main {
             computer.powerOff();
         }
     }
+
+    HashMap<String, String> gg;
+    LinkedList<String> ll;
+    ListIterator<String> ii;
 }
 
 /*
